@@ -1,0 +1,4 @@
+This output shows that Champions, Loyal Customers, and New Customers are positive signs as they have lower average recency days, meaning they purchased more recently. Frequency is not a reliable indicator here since the dataset only covers a one-year timespan, limiting repeat purchase behavior.
+In terms of revenue, Champions, Loyal Customers, and Cannot Lose Them generate the highest average and total revenue, while the remaining segments fall significantly lower. This suggests that Champions and Loyal Customers are the most important segments to retain.
+A key concern is the Cannot Lose Them segment, despite having high average revenue per customer, their average recency days is significantly higher compared to Champions and Loyal Customers, which is a bad sign indicating they are becoming inactive.
+
