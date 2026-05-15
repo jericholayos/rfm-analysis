@@ -16,7 +16,7 @@ This project performs a full RFM (Recency, Frequency, Monetary) analysis on the 
 
 ---
 ## Dataset
-- **Source:** [UCI Online Retail Dataset](https://archive.ics.uci.edu/ml/datasets/online+retail)
+- **Source:** [Kaggle E-Commerce Data](https://www.kaggle.com/datasets/carrie1/ecommerce-data)
 - **Period:** December 2010 – December 2011
 - **Raw rows:** 541,909 transactions
 - **Customers after cleaning:** 4,338
