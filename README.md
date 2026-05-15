@@ -67,7 +67,8 @@ Built an interactive dashboard with 4 charts and a segment slicer.
 ---
 
 ## Dashboard Preview
-<img width="1345" height="741" alt="RFM_Dashboard" src="https://github.com/user-attachments/assets/3d33ab07-df26-4487-b1c4-1b3b4681df7d" />
+<img width="1277" height="716" alt="image" src="https://github.com/user-attachments/assets/bd0a9956-2824-437b-9dcb-6e79cfb995af" />
+<img width="1277" height="714" alt="image" src="https://github.com/user-attachments/assets/921ecf09-0648-41e5-a835-bc87c970a8f9" />
 
 
 ---
