@@ -73,6 +73,9 @@ Built a two-page interactive report. Page 1 covers sales performance (monthly re
 ## Dashboard Preview
 <img width="1277" height="716" alt="image" src="https://github.com/user-attachments/assets/bd0a9956-2824-437b-9dcb-6e79cfb995af" />
 <img width="1277" height="714" alt="image" src="https://github.com/user-attachments/assets/921ecf09-0648-41e5-a835-bc87c970a8f9" />
+
+---
+## Excel Dashboard
 <img width="1345" height="741" alt="RFM_Dashboard" src="https://github.com/user-attachments/assets/6e8c7dc9-6770-4346-ab76-2f46dcea6e2b" />
 
 ---
