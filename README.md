@@ -1,7 +1,3 @@
-Here's the README with em dashes removed and cleaned up:
-
----
-
 # RFM Customer Segmentation Analysis
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoft-excel&logoColor=white)
