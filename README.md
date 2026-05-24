@@ -9,8 +9,8 @@
 This project performs a full RFM (Recency, Frequency, Monetary) analysis on the UCI Online Retail dataset. Customers are segmented into behavioral groups using PostgreSQL for all data cleaning, calculation, and scoring, then visualized through an interactive Excel dashboard and a two-page Power BI report covering sales performance and customer segmentation.
 
 ## Dashboard Preview
-<img width="1116" height="755" alt="image" src="https://github.com/user-attachments/assets/1f6ea3df-cc14-45c7-b567-1e8190a349bf" />
-<img width="1117" height="753" alt="image" src="https://github.com/user-attachments/assets/a9da7c73-6756-4119-8adc-35e516627b5b" />
+<img width="1119" height="753" alt="image" src="https://github.com/user-attachments/assets/c371738c-fa9e-484f-ae25-fb4ce179c92e" />
+<img width="1118" height="753" alt="image" src="https://github.com/user-attachments/assets/926fe6f0-e29c-4a24-afb9-a91eb8da09a2" />
 
 
 ## Tools Used
