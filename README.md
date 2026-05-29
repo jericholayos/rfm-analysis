@@ -11,6 +11,7 @@ This project performs a full RFM (Recency, Frequency, Monetary) analysis on the 
 ## Dashboard Preview
 <img width="1118" height="754" alt="image" src="https://github.com/user-attachments/assets/77439fe2-ee26-4115-b282-18e9c2248b66" />
 <img width="1121" height="752" alt="image" src="https://github.com/user-attachments/assets/e3c69101-37c3-4d54-ae1e-fba9a5a8374a" />
+<img width="1345" height="741" alt="RFM_Dashboard" src="https://github.com/user-attachments/assets/6e8c7dc9-6770-4346-ab76-2f46dcea6e2b" />
 
 
 
@@ -26,26 +27,6 @@ This project performs a full RFM (Recency, Frequency, Monetary) analysis on the 
 - **Customers after cleaning:** 4,338
 - **Country:** UK-based online wholesale retailer
 
-## Process
-
-**1. Data Cleaning (PostgreSQL)**
-Removed anonymous transactions (null CustomerID), returns, cancellations (C-prefix invoices), and zero-price rows. Cleaned dataset: ~397,880 rows.
-
-**2. RFM Calculation (PostgreSQL)**
-Computed Recency (days since last purchase), Frequency (distinct orders), and Monetary (total revenue) per customer using GROUP BY and date arithmetic.
-
-**3. RFM Scoring (PostgreSQL)**
-Scored each dimension 1 to 5 using NTILE window functions. Recency is inverted so fewer days equals a higher score.
-
-**4. Segment Labeling (PostgreSQL)**
-Assigned 8 segment labels using CASE logic: Champions, Loyal Customers, New Customers, Potential Loyalists, Cannot Lose Them, At-Risk, Hibernating, and Lost.
-
-**5. Dashboard (Excel)**
-Built an interactive dashboard with 4 charts and a segment slicer.
-
-**6. Power BI Report**
-Built a two-page interactive report. Page 1 covers sales performance (monthly revenue and order trends, top 10 products, top 10 customers). Page 2 covers RFM segmentation with cross-filtering by segment.
-
 ## Key Findings
 
 **Sales**
@@ -59,18 +40,3 @@ Built a two-page interactive report. Page 1 covers sales performance (monthly re
 - **Cannot Lose Them needs immediate attention** as only 344 customers each spend an average of £2,471 and have not purchased in 142 days on average
 - **Most customers only bought once** as the average order frequency is 1.00 across all segments, likely because the dataset covers only one year
 - **Lost is the biggest segment by count** with 1,359 customers (31%) and the lowest average spend at £252, making re-engagement unlikely
-
-## Files
-| File | Description |
-|------|-------------|
-| `sql/01_clean_data.sql` | Filter and create clean working table |
-| `sql/02_create_table_and_load.sql` | Create table and load CSV |
-| `sql/03_rfm_calculation.sql` | Calculate recency, frequency, monetary per customer |
-| `sql/04_rfm_segments.sql` | NTILE scoring and segment labeling |
-| `sql/05_additional_insights.sql` | More detailed insights |
-| `excel/rfm_analysis.xlsx` | Excel dashboard with charts and slicer |
-| `powerbi/rfm_report.pbix` | Power BI two-page interactive report |
-
-
-## Excel Dashboard
-<img width="1345" height="741" alt="RFM_Dashboard" src="https://github.com/user-attachments/assets/6e8c7dc9-6770-4346-ab76-2f46dcea6e2b" />
