@@ -3,29 +3,12 @@
 ![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoft-excel&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
 
-### Online Retail Dataset
-
 ## Overview
 This project performs a RFM (Recency, Frequency, Monetary) analysis on the UCI Online Retail dataset. Customers are segmented into behavioral groups using PostgreSQL for all data cleaning, calculation, and scoring, then visualized through an interactive Excel dashboard and a two-page Power BI report covering sales performance and customer segmentation.
 
 ## Dashboard Preview
 <img width="1118" height="754" alt="image" src="https://github.com/user-attachments/assets/77439fe2-ee26-4115-b282-18e9c2248b66" />
 <img width="1121" height="752" alt="image" src="https://github.com/user-attachments/assets/e3c69101-37c3-4d54-ae1e-fba9a5a8374a" />
-<img width="1345" height="741" alt="RFM_Dashboard" src="https://github.com/user-attachments/assets/6e8c7dc9-6770-4346-ab76-2f46dcea6e2b" />
-
-
-
-## Tools Used
-- **PostgreSQL** for data cleaning, RFM calculation, NTILE scoring, and segment labeling
-- **Excel** for PivotTables, dashboard, and charts
-- **Power BI** for a two-page interactive report: Sales Overview and RFM Segmentation Dashboard
-
-## Dataset
-- **Source:** [Kaggle E-Commerce Data](https://www.kaggle.com/datasets/carrie1/ecommerce-data)
-- **Period:** December 2010 to December 2011
-- **Raw rows:** 541,909 transactions
-- **Customers after cleaning:** 4,338
-- **Country:** UK-based online wholesale retailer
 
 ## Key Findings
 
@@ -40,3 +23,6 @@ This project performs a RFM (Recency, Frequency, Monetary) analysis on the UCI O
 - **Cannot Lose Them needs immediate attention** as only 344 customers each spend an average of £2,471 and have not purchased in 142 days on average
 - **Most customers only bought once** as the average order frequency is 1.00 across all segments, likely because the dataset covers only one year
 - **Lost is the biggest segment by count** with 1,359 customers (31%) and the lowest average spend at £252, making re-engagement unlikely
+
+## Excel Pivot Chart
+<img width="1345" height="741" alt="RFM_Dashboard" src="https://github.com/user-attachments/assets/6e8c7dc9-6770-4346-ab76-2f46dcea6e2b" />
