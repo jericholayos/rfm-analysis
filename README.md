@@ -14,7 +14,7 @@ This project performs a RFM (Recency, Frequency, Monetary) analysis on the UCI O
 
 **Sales**
 - **November had the highest revenue** as sales spiked toward the end of the year, likely due to holiday season bulk orders
-- **One customer (14646) generated £280K**, making up 3.1% of total revenue
+- **United kingdom**, had the highest revenue by country at 870K
 - **Paper Craft Little Birdie was the best-selling product** at £168K in revenue, well ahead of second place at £143K
 - **Average order value was £480.87**, reflecting bulk buying behavior typical of wholesale customers
 
