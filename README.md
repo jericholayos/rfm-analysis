@@ -8,4 +8,4 @@ This project performs a RFM (Recency, Frequency, Monetary) analysis on the UCI O
 
 ## Dashboard Preview
 <img width="1342" height="754" alt="image" src="https://github.com/user-attachments/assets/6cb564aa-9ea6-4315-a735-0e0bd4e68433" />
-<img width="1341" height="753" alt="image" src="https://github.com/user-attachments/assets/ff17270a-3122-4c93-b8bf-744e394d8f3f" />
+<img width="1339" height="752" alt="image" src="https://github.com/user-attachments/assets/03104682-5f55-4996-a858-b579502fd39e" />
